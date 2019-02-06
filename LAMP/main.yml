@@ -1,0 +1,8 @@
+# LLamada de roles 
+
+- name: Lamp
+  hosts: all	
+  user: cchacoff
+  become: yes
+  roles:
+   - fvarovillodres.lamp
